@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8F387555200B7FF200411E1B /* Convos_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Convos_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F387555200B7FF200411E1B /* Heur_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heur_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F387558200B7FF200411E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F38755A200B7FF200411E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F38755D200B7FF200411E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		8F38754C200B7FF200411E1B = {
 			isa = PBXGroup;
 			children = (
-				8F387557200B7FF200411E1B /* Convos_iOS */,
+				8F387557200B7FF200411E1B /* Heur_iOS */,
 				8F387556200B7FF200411E1B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		8F387556200B7FF200411E1B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8F387555200B7FF200411E1B /* Convos_iOS.app */,
+				8F387555200B7FF200411E1B /* Heur_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8F387557200B7FF200411E1B /* Convos_iOS */ = {
+		8F387557200B7FF200411E1B /* Heur_iOS */ = {
 			isa = PBXGroup;
 			children = (
 				8F387558200B7FF200411E1B /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				8F387567200B7FF200411E1B /* Info.plist */,
 				8F38755F200B7FF200411E1B /* Convos_iOS.xcdatamodeld */,
 			);
-			path = Convos_iOS;
+			path = Heur_iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8F387554200B7FF200411E1B /* Convos_iOS */ = {
+		8F387554200B7FF200411E1B /* Heur_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8F38756A200B7FF200411E1B /* Build configuration list for PBXNativeTarget "Convos_iOS" */;
+			buildConfigurationList = 8F38756A200B7FF200411E1B /* Build configuration list for PBXNativeTarget "Heur_iOS" */;
 			buildPhases = (
 				8F387551200B7FF200411E1B /* Sources */,
 				8F387552200B7FF200411E1B /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Convos_iOS;
+			name = Heur_iOS;
 			productName = Convos_iOS;
-			productReference = 8F387555200B7FF200411E1B /* Convos_iOS.app */;
+			productReference = 8F387555200B7FF200411E1B /* Heur_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8F387550200B7FF200411E1B /* Build configuration list for PBXProject "Convos_iOS" */;
+			buildConfigurationList = 8F387550200B7FF200411E1B /* Build configuration list for PBXProject "Heur_iOS" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8F387554200B7FF200411E1B /* Convos_iOS */,
+				8F387554200B7FF200411E1B /* Heur_iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -281,7 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Convos_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "novaorbis.Convos-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "novaorbis.Heur-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,7 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Convos_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "novaorbis.Convos-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "novaorbis.Heur-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8F387550200B7FF200411E1B /* Build configuration list for PBXProject "Convos_iOS" */ = {
+		8F387550200B7FF200411E1B /* Build configuration list for PBXProject "Heur_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F387568200B7FF200411E1B /* Debug */,
@@ -314,7 +314,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8F38756A200B7FF200411E1B /* Build configuration list for PBXNativeTarget "Convos_iOS" */ = {
+		8F38756A200B7FF200411E1B /* Build configuration list for PBXNativeTarget "Heur_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8F38756B200B7FF200411E1B /* Debug */,
