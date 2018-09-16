@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F211E0320A6D5F6004929A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F211E0220A6D5F6004929A9 /* Default-568h@2x.png */; };
 		8F387559200B7FF200411E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F387558200B7FF200411E1B /* AppDelegate.swift */; };
 		8F38755B200B7FF200411E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38755A200B7FF200411E1B /* ViewController.swift */; };
 		8F38755E200B7FF200411E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F38755C200B7FF200411E1B /* Main.storyboard */; };
 		8F387561200B7FF200411E1B /* Convos_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F38755F200B7FF200411E1B /* Convos_iOS.xcdatamodeld */; };
 		8F387563200B7FF200411E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F387562200B7FF200411E1B /* Assets.xcassets */; };
 		8F387566200B7FF200411E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F387564200B7FF200411E1B /* LaunchScreen.storyboard */; };
+		8F65042020DF86110080BE53 /* oAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F65041F20DF86110080BE53 /* oAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F211E0220A6D5F6004929A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8F387555200B7FF200411E1B /* Heur_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Heur_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F387558200B7FF200411E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F38755A200B7FF200411E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		8F387562200B7FF200411E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F387565200B7FF200411E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F387567200B7FF200411E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F65041F20DF86110080BE53 /* oAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		8F38754C200B7FF200411E1B = {
 			isa = PBXGroup;
 			children = (
+				8F211E0220A6D5F6004929A9 /* Default-568h@2x.png */,
 				8F387557200B7FF200411E1B /* Heur_iOS */,
 				8F387556200B7FF200411E1B /* Products */,
 			);
@@ -57,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				8F387558200B7FF200411E1B /* AppDelegate.swift */,
+				8F65041F20DF86110080BE53 /* oAuth.swift */,
 				8F38755A200B7FF200411E1B /* ViewController.swift */,
 				8F38755C200B7FF200411E1B /* Main.storyboard */,
 				8F387562200B7FF200411E1B /* Assets.xcassets */,
@@ -94,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = anirudh;
 				TargetAttributes = {
 					8F387554200B7FF200411E1B = {
@@ -127,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F387566200B7FF200411E1B /* LaunchScreen.storyboard in Resources */,
+				8F211E0320A6D5F6004929A9 /* Default-568h@2x.png in Resources */,
 				8F387563200B7FF200411E1B /* Assets.xcassets in Resources */,
 				8F38755E200B7FF200411E1B /* Main.storyboard in Resources */,
 			);
@@ -142,6 +149,7 @@
 				8F38755B200B7FF200411E1B /* ViewController.swift in Sources */,
 				8F387559200B7FF200411E1B /* AppDelegate.swift in Sources */,
 				8F387561200B7FF200411E1B /* Convos_iOS.xcdatamodeld in Sources */,
+				8F65042020DF86110080BE53 /* oAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +189,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +197,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +248,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +256,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
