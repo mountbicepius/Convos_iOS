@@ -11,7 +11,6 @@
 		8F387559200B7FF200411E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F387558200B7FF200411E1B /* AppDelegate.swift */; };
 		8F38755B200B7FF200411E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F38755A200B7FF200411E1B /* ViewController.swift */; };
 		8F38755E200B7FF200411E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F38755C200B7FF200411E1B /* Main.storyboard */; };
-		8F387561200B7FF200411E1B /* Convos_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F38755F200B7FF200411E1B /* Convos_iOS.xcdatamodeld */; };
 		8F387563200B7FF200411E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F387562200B7FF200411E1B /* Assets.xcassets */; };
 		8F387566200B7FF200411E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F387564200B7FF200411E1B /* LaunchScreen.storyboard */; };
 		8F65042020DF86110080BE53 /* oAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F65041F20DF86110080BE53 /* oAuth.swift */; };
@@ -23,7 +22,6 @@
 		8F387558200B7FF200411E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F38755A200B7FF200411E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F38755D200B7FF200411E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F387560200B7FF200411E1B /* Convos_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Convos_iOS.xcdatamodel; sourceTree = "<group>"; };
 		8F387562200B7FF200411E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F387565200B7FF200411E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F387567200B7FF200411E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				8F387562200B7FF200411E1B /* Assets.xcassets */,
 				8F387564200B7FF200411E1B /* LaunchScreen.storyboard */,
 				8F387567200B7FF200411E1B /* Info.plist */,
-				8F38755F200B7FF200411E1B /* Convos_iOS.xcdatamodeld */,
 			);
 			path = Heur_iOS;
 			sourceTree = "<group>";
@@ -105,6 +102,7 @@
 				TargetAttributes = {
 					8F387554200B7FF200411E1B = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -148,7 +146,6 @@
 			files = (
 				8F38755B200B7FF200411E1B /* ViewController.swift in Sources */,
 				8F387559200B7FF200411E1B /* AppDelegate.swift in Sources */,
-				8F387561200B7FF200411E1B /* Convos_iOS.xcdatamodeld in Sources */,
 				8F65042020DF86110080BE53 /* oAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,11 +288,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Convos_iOS/Info.plist;
+				DEVELOPMENT_TEAM = 7UN7B26TJ9;
+				INFOPLIST_FILE = Heur_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "novaorbis.Heur-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -305,11 +304,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Convos_iOS/Info.plist;
+				DEVELOPMENT_TEAM = 7UN7B26TJ9;
+				INFOPLIST_FILE = Heur_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "novaorbis.Heur-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -336,19 +337,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8F38755F200B7FF200411E1B /* Convos_iOS.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8F387560200B7FF200411E1B /* Convos_iOS.xcdatamodel */,
-			);
-			currentVersion = 8F387560200B7FF200411E1B /* Convos_iOS.xcdatamodel */;
-			path = Convos_iOS.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8F38754D200B7FF200411E1B /* Project object */;
 }
